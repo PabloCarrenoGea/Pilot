@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmationViewController" customModule="Pilot" customModuleProvider="target">
+            <connections>
+                <outlet property="aircraftsLabel" destination="nTm-Ra-VqC" id="ELw-bi-8LX"/>
+                <outlet property="licenseLabel" destination="DCo-Fw-Syw" id="3PT-1y-AIr"/>
+                <outlet property="nameLabel" destination="zKS-gb-F7Y" id="YEK-aS-H38"/>
+                <outlet property="tableView" destination="q0f-Yg-3mu" id="xlE-MI-Y7H"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKS-gb-F7Y" userLabel="Name Label">
+                    <rect key="frame" x="16" y="109" width="361" height="33.666666666666657"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCo-Fw-Syw" userLabel="License Label">
+                    <rect key="frame" x="16.000000000000004" y="150.66666666666666" width="37.333333333333343" height="18"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                    <color key="textColor" systemColor="secondaryLabelColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTm-Ra-VqC" userLabel="Aircrafts Label">
+                    <rect key="frame" x="16" y="198.66666666666666" width="31" height="14.333333333333343"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="q0f-Yg-3mu">
+                    <rect key="frame" x="16" y="221" width="361" height="496"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJh-bQ-1ex">
+                    <rect key="frame" x="25" y="767" width="343" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Logout"/>
+                    <connections>
+                        <action selector="didTapLogout:" destination="-1" eventType="touchUpInside" id="tvW-mr-2Qe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="q0f-Yg-3mu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="0im-RB-aoX"/>
+                <constraint firstItem="pJh-bQ-1ex" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="3e5-zJ-R0D"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pJh-bQ-1ex" secondAttribute="bottom" constant="16" id="4aQ-ie-iyt"/>
+                <constraint firstItem="nTm-Ra-VqC" firstAttribute="top" secondItem="DCo-Fw-Syw" secondAttribute="bottom" constant="30" id="5Jl-qd-Q23"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zKS-gb-F7Y" secondAttribute="trailing" constant="16" id="6am-Wz-a1f"/>
+                <constraint firstItem="pJh-bQ-1ex" firstAttribute="top" secondItem="q0f-Yg-3mu" secondAttribute="bottom" constant="50" id="Mje-jI-1oQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pJh-bQ-1ex" secondAttribute="trailing" constant="25" id="QUW-Oc-jw8"/>
+                <constraint firstItem="zKS-gb-F7Y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Rwt-Xs-sty"/>
+                <constraint firstItem="q0f-Yg-3mu" firstAttribute="top" secondItem="nTm-Ra-VqC" secondAttribute="bottom" constant="8" id="auB-Tn-aAW"/>
+                <constraint firstItem="zKS-gb-F7Y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="h0u-vk-EOP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="q0f-Yg-3mu" secondAttribute="trailing" constant="16" id="pfi-za-Cqe"/>
+                <constraint firstItem="DCo-Fw-Syw" firstAttribute="top" secondItem="zKS-gb-F7Y" secondAttribute="bottom" constant="8" symbolic="YES" id="rfM-ft-TpN"/>
+                <constraint firstItem="nTm-Ra-VqC" firstAttribute="leading" secondItem="DCo-Fw-Syw" secondAttribute="leading" id="wlA-3p-pxr"/>
+                <constraint firstItem="DCo-Fw-Syw" firstAttribute="leading" secondItem="zKS-gb-F7Y" secondAttribute="leading" id="xYj-ck-uxO"/>
+            </constraints>
+            <point key="canvasLocation" x="-48.091603053435115" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A187E06-8FBE-4351-BD2F-CAAD7CDD8DF4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3EDF058-5866-40BF-AE92-20AF4A8C6758"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/Confirmation/Coordinator/ConfirmationCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "doLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12243DB4-E6D6-476B-9B79-D36E05601CCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/Confirmation/ViewModel/ConfirmationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "didTapLogout()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12243DB4-E6D6-476B-9B79-D36E05601CCD - 4caceffdfc9f87a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pilot.ConfirmationViewModel.didTapLogout() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/Confirmation/ViewModel/ConfirmationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "12243DB4-E6D6-476B-9B79-D36E05601CCD - 47b8494c4e8c95d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Pilot.ConfirmationViewModel.didTapLogout() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/Confirmation/ViewModel/ConfirmationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "874DC0CE-51C8-4FDF-95B8-B102A6F8B10B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/Registration/ViewModel/RegistrationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "didTapRegister()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB8C5830-3FA0-425D-B01C-5F626700F0DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/Confirmation/ViewModel/ConfirmationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "didTapLogout()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2570589A-B6AB-47E8-AD99-68FA20D9A2E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/Registration/ViewModel/RegistrationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "didTapRegister()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7CC973C-F8BC-4714-BB3E-E44400772132"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "start()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47F9C9D9-3849-47E6-AEC6-6AE1963AD778"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "goToConfirmation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "47F9C9D9-3849-47E6-AEC6-6AE1963AD778 - e60f1f0a6de852a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pilot.HomeLoadingCoordinator.goToConfirmation() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "47F9C9D9-3849-47E6-AEC6-6AE1963AD778 - e60f1f0a6de852a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pilot.HomeLoadingCoordinator.goToConfirmation() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C8A3E9F-6B22-4A9F-A949-7DA7DEA3AA07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "goToRegistration()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C8A3E9F-6B22-4A9F-A949-7DA7DEA3AA07 - 328d502f30be4716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pilot.HomeLoadingCoordinator.goToRegistration() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "6C8A3E9F-6B22-4A9F-A949-7DA7DEA3AA07 - 328d502f30be4716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pilot.HomeLoadingCoordinator.goToRegistration() -&gt; ()"
+                  moduleName = "Pilot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmjimenez/Documents/Projects/Pilot/Pilot/Scenes/HomeLoading/Coordinator/HomeLoadingCoordinator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

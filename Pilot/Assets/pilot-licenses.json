@@ -1,0 +1,28 @@
+{
+    "pilot-licenses": [
+        {
+            "type": "PPL",
+            "aircrafts" : [
+                "C152",
+                "C172",
+                "D40A"
+            ]
+        },
+        {
+            "type": "ATPL",
+            "aircrafts" : [
+                "B737",
+                "A380",
+                "B747"
+            ]
+        },
+        {
+            "type": "MPL",
+            "aircrafts" : [
+                "A321",
+                "A300",
+                "B717"
+            ]
+        }
+    ]
+}
